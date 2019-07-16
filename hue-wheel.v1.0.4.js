@@ -9,7 +9,7 @@
  * Round some number to int
  * 
  * @param {Number} num - The number to be rounded
- * @param {Number=} at  - If demcimal digit is larger than "at", then round up
+ * @param {Number=} at  - If decimal is larger than "at" round up
  * 
  * @return {Number} rounded number
  */
@@ -134,7 +134,7 @@ function rgb2hsl(R, G, B) {
 }
 
 /**
- * @param {Number} redStart - Define where red(hue 0, saturation 100%, lightness 50%) start (12 O'clock position is 90 degree and degree increases counterclockwise)
+ * @param {Number} redStart - Define where red(hue 0, saturation 100%, lightness 50%) starts (12 O'clock position is 90 degree and degree increases counterclockwise)
  * @param {Number} style - clockwise style 1 red -> green -> blue -> red | 0 red -> blue -> green -> red
  * @param {Number} theta - current angle in the hue wheel: [0 <-> 360] degree
  * 
@@ -157,11 +157,11 @@ function getHue(redStart, theta, style = 0) {
 
 /**
  * draw a hue wheel
- * @param {Object} - Object ontains all the parameters needed
+ * @param {Object} - Object contains all the parameters needed
  * @param {String|HTMLElement} canvasID - ID of the canvas element which will display the hue wheel
  * @param {Number} inner_radius - inner void circle's radius
  * @param {Number} thickness - thickness of the ring/wheel
- * @param {Number=} redStart - Define where red(hue 0, saturation 100%, lightness 50%) start (12 O'clock position is 90 degree and degree increases counterclockwise)
+ * @param {Number=} redStart - Define where red(hue 0, saturation 100%, lightness 50%) starts (12 O'clock position is 90 degree and degree increases counterclockwise)
  * @param {Number=} style - clockwise style 1 red -> green -> blue -> red | 0 red -> blue -> green -> red, default 0
  * @param {Number=} saturation - [0 <-> 1], default 100%
  * @param {Number=} lightness - [0 <-> 1], default 50%
