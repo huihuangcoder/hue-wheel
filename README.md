@@ -9,7 +9,7 @@ A javascript library to generate simple and customizable hue wheel on canvas
 ## How to use
 1) Load the js file in the file
 ```
-<script scr=URL of the js file></script>
+<script src=URL of the js file></script>
 ```
 
 2) Create a hue wheel property object like below
