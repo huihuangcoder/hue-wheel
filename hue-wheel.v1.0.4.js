@@ -1,6 +1,6 @@
 /*!
  * Hue Wheel Generator
- * @author Hui Huang <mailbox4hh@gmail.com>
+ * @author Hui Huang <huihuangcoder@gmail.com>
  * @version 1.0.1
  * @license MIT
  */
