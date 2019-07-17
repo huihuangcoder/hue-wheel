@@ -34,6 +34,8 @@ let huewheel = {
 |lightness|Number|[0 <-> 1], default 50%| Y |
 |opacity|Number|Transparent [0 <-> 255] Opaque, default opaque| Y |
 
+![explaination](hue-wheel-figure.png?raw=true)
+
 
 3) And use the function below to draw a hue wheel on a canvas element
 ```
