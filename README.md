@@ -43,4 +43,4 @@ drawHueWheel(param_obj);
 ```
 
 ## Demo
-[3D Color Space](https://huihuangcoder.github.io/projects/3d-color-space/color-space-2.1.3.html)
+[3D Color Space](https://huihuangcoder.github.io/projects/3d-color-space/color-space-2.3.0.html)
